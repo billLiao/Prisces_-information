@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Home</title>
+<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+<!-- jQuery (Bootstrap's JavaScript plugins) -->
+
+<link href="css/component.css" rel="stylesheet" type="text/css"  />
+<!-- Custom Theme files -->
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+<!-- Custom Theme files -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="Smart Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template, 
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!--webfont-->
+<!-- start-smoth-scrolling -->
+		<script type="text/javascript" src="js/jquery.min.js"></script>
+		<script type="text/javascript" src="js/move-top.js"></script>
+		<script type="text/javascript" src="js/easing.js"></script>
+		<script type="text/javascript">
+			jQuery(document).ready(function($) {
+				$(".scroll").click(function(event){		
+					event.preventDefault();
+					$('html,body').animate({scrollTop:$(this.hash).offset().top},900);
+				});
+			});
+		</script>
+<!-- start-smoth-scrolling-->
+</head>
+<body class="cbp-spmenu-push">
+<div id="home" class="banner">
+	 <div class="container">
+		 <div class="header">
+			 <div class="logo">
+				 <a href="#"><img src="images/logo.png" alt=""/></a>
+			 </div>	
+			 <div class="top-nav">
+				<nav class="cbp-spmenu cbp-spmenu-vertical cbp-spmenu-right" id="cbp-spmenu-s2">
+					<h3>Menu</h3>
+					<a class="scroll" href="#home" class="active">Home</a>
+					<a class="scroll" href="#feature">Features</a>
+					<a class="scroll" href="#screenshots">Screen Shots</a>
+					<a class="scroll" href="#team">Team</a>
+				</nav>
+				<div class="main buttonset">	
+						<!-- Class "cbp-spmenu-open" gets applied to menu and "cbp-spmenu-push-toleft" or "cbp-spmenu-push-toright" to the body -->
+						<button id="showRightPush"><img src="images/menu-icon.png" alt=""/></button>
+						<!--<span class="menu"></span>-->
+				</div>
+				<!-- Classie - class helper functions by @desandro https://github.com/desandro/classie -->
+				<script src="js/classie.js"></script>
+				<script>
+				var menuRight = document.getElementById( 'cbp-spmenu-s2' ),
+				showRightPush = document.getElementById( 'showRightPush' ),
+				body = document.body;
+
+				showRightPush.onclick = function() {
+					classie.toggle( this, 'active' );
+					classie.toggle( body, 'cbp-spmenu-push-toleft' );
+					classie.toggle( menuRight, 'cbp-spmenu-open' );
+					disableOther( 'showRightPush' );
+				};
+
+				function disableOther( button ) {
+					if( button !== 'showRightPush' ) {
+						classie.toggle( showRightPush, 'disabled' );
+					}
+				}
+			 </script>
+	     </div>
+			<div class="clearfix"></div>
+		 </div>
+		 
+		 <div class="banner-info">
+			 <h1>Pisces<span>Screenshot Merger</span></h1>
+			 <p>Pisces is the album into a long figure mosaics of screenshots tools, you just need a simple operation to complete the splicing，and in the Pisces APP to complete the operation to add the frame. We hope that Pisces APP can bring you convenience, improve your efficiency, we will continue to optimize the user experience, to bring you a better experience.</p>
+			 <a href="https://itunes.apple.com/cn/app/pisces-yi-jian-zhi-neng-wu/id1185276607?mt=8"><img src="images/app.png" alt=""/></a>
+		 </div>
+		 <div class="down">
+		 <a class="scroll" href="#feature"><img src="images/scroll.png" alt=""/></a>
+		 </div>
+	 </div>
+	 <div class="hand">
+		 <img src="images/hand1.png" alt=""/>
+	 </div>
+</div>
+<!--features-->
+<div id="feature" class="features">
+	 <div class="container">
+		 <div class="feature-info text-center">
+		 <h3>App Features</h3>
+		 <p>Pisces is the album into a long figure mosaics of screenshots tools </br>
+		 you just need a simple operation to complete the splicing.</p>
+		 </div>
+		 <div class="feature-grids">
+			 <div class="col-md-6 feature-sec">
+				 <div class="feature-grid grid1">
+					 <h3> Intelligent Merger</h3>
+					 <p>you just need a simple operation to complete the splicing. 
+					 Automatically stitch your screenshots into one long image. 
+					 Ensure they have 10% overlap content.</p>
+				 </div>
+				 <div class="feature-grid grid2">
+					 <h3>Better Experience</h3>
+					 <p>The app is easy to use. 
+						Just click the button several times to get the desired effect.<br/> 
+						The interface is very simple, no extra elements interfere with sight.</p>
+				 </div>
+			 </div>
+			 <div class="col-md-6 feature-sec">
+				 <div class="feature-grid grid3">
+					 <h3>Add Frame</h3>
+					 <p> You can add a iPhone frame to the photo via the Pisces APP, This is a very cool feature, and very easy to add photo frame in Pisces APP. Many users like this feature and give this feature a bit of praise.</p>
+				 </div>
+				 <!-- <div class="feature-grid grid4">
+					 <h3>Colors Customization</h3>
+					 <p>Lorem ipsum dolor sit amet consectetur adictum 
+						piscing elit fusce sit amet inerdum neque ultra 
+						icies scelerisque non tempor neque dolor set 
+						egestas at.</p>
+				 </div> -->
+			 </div>
+			 <div class="clearfix"></div>
+		 </div>
+	</div>
+</div>
+<!--screenshots-->
+<div id="screenshots" class="screen-shots">
+	 <div class="container">
+		 <h3>SCREEN SHOTS</h3>
+		  <div class="review-slider">
+			 <ul id="flexiselDemo1">
+				<li><img src="images/ss1.png" alt=""/></li>
+				<li><img src="images/ss2.png" alt=""/></li>
+				<li><img src="images/ss3.png" alt=""/></li>
+				<li><img src="images/ss4.png" alt=""/></li>
+				<li><img src="images/ss5.png" alt=""/></li>			
+			 </ul>
+				<script type="text/javascript">
+			 $(window).load(function() {
+				
+			  $("#flexiselDemo1").flexisel({
+					visibleItems: 4,
+					animationSpeed: 1000,
+					autoPlay: true,
+					autoPlaySpeed: 3000,    		
+					pauseOnHover: true,
+					enableResponsiveBreakpoints: true,
+					responsiveBreakpoints: { 
+						portrait: { 
+							changePoint:480,
+							visibleItems: 2
+						}, 
+						landscape: { 
+							changePoint:640,
+							visibleItems: 3
+						},
+						tablet: { 
+							changePoint:768,
+							visibleItems: 4
+						}
+					}
+				});
+				});
+			 </script>
+			 <script type="text/javascript" src="js/jquery.flexisel.js"></script>	
+		  </div>
+	  </div>
+</div>
+<!--team-->
+<div id="team" class="team">
+	<div class="container">
+		 <h3>Us App</h3>
+		 <div class="team-grids">
+			 <div class="col-md-4 team-grid text-center">
+			 	<a href="https://itunes.apple.com/cn/app/pisces-yi-jian-zhi-neng-wu/id1185276607?mt=8">
+				 	<img src="images/t1.png" alt=""/>
+				 </a>
+				 <h4>Pisces</h4>
+				 <p>Pisces is the album into a long figure mosaics of screenshots tools. </p>
+				 <!-- <div class="social-icons">
+					 <a href="#"><span class="fb"></span></a>
+					 <a href="#"><span class="tweet"></span></a>
+					 <a href="#"><span class="drib"></span></a>
+				 </div> -->
+			 </div>
+			 <div class="col-md-4 team-grid text-center">
+			 	<a href="https://itunes.apple.com/cn/app/fen-tu-jiu-gong-ge-qie-tu-shen-qi/id1179260950?mt=8">
+					 <img src="images/t2.png" alt=""/>
+				</a>
+				 <h4>fentu</h4>
+				 <p>分图是一个九宫格切图神器，可以把一张图片切成超有范的九宫格图. </p>
+				 <!-- <div class="social-icons">
+					 <a href="#"><span class="fb"></span></a>
+					 <a href="#"><span class="tweet"></span></a>
+					 <a href="#"><span class="drib"></span></a>
+				 </div> -->
+			 </div>
+			 <!-- <div class="col-md-4 team-grid text-center">
+				 <img src="images/t3.jpg" alt=""/>
+				 <h4>Jennifer</h4>
+				 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+				 sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+				 <div class="social-icons">
+					 <a href="#"><span class="fb"></span></a>
+					 <a href="#"><span class="tweet"></span></a>
+					 <a href="#"><span class="drib"></span></a>
+				 </div>
+			 </div> -->
+			 <div class="clearfix"></div>
+		 </div>
+	 </div>
+</div>
+<!--team-->
+</body>
+</html>
